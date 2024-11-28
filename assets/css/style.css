@@ -10,7 +10,7 @@ margin: 0;
 body{
 
  color: #023350;
-overflow-x: hidden;
+
 
 }
 
@@ -1711,7 +1711,7 @@ border-radius: 25%;
 
 .news .title h3{
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
 }
 .news  span{
 
@@ -1787,7 +1787,7 @@ top: 35%;
     }
 
     .blog1{
-     margin: 20px 10px;
+     margin: 20px 2px;
     
      }
 
