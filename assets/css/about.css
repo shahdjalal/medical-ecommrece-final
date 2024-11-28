@@ -1,0 +1,26 @@
+
+
+.header{
+
+    padding: 50px 0;
+    background-image: url(./about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+.header h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.header a:hover{
+
+color: var(--secondoryColor);
+}
+
+.header .home{
+    font-size: 20px;
+    font-weight: 600;
+}
+

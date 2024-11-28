@@ -1,0 +1,3355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+   
+   
+ <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"   />
+
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+    
+    <link href="./assets/css/style.css" rel="stylesheet"  />
+</head>
+<body>
+  <!-- navbar section -->  
+    <nav class="navbar navbar-expand-lg   bg-body-tertiary  position-sticky top-0   ">
+        <div class="container" >
+          <a class= " navbar-brand logo" href="#"> <img    src="./assets/img/logo.png" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class=" dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./index.html">Home</a></li>
+                  <li><a class="dropdown-item" href="./about.html">About</a></li>
+                  <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./blog.html">Blogs</a></li>
+                  <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+                </ul>
+              </li>
+             
+             <li class=" dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Category
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./medicine.html">Medicine</a></li>
+                <li><a class="dropdown-item" href="./beauty.html">Beauty</a></li>
+                <li><a class="dropdown-item" href="./health.html">HealthCare</a></li>
+                <li><a class="dropdown-item" href="./baby.html">Baby & Mom care</a></li>
+                <li><a class="dropdown-item" href="./food.html">Food & Nutration</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./fittness.html">Fittness</a></li>
+                <li><a class="dropdown-item" href="./Sexual.html">Sexual</a></li>
+             
+              </ul>
+            </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+            <div class="right-nav  ">
+               
+                    <i class="fa-solid fa-magnifying-glass search-icon " onclick="openModal()"> </i>
+                
+                      
+                <a  href="#" > 
+                    <i class="fa-regular fa-heart wish-list">
+                       
+                    </i>
+                  
+                </a>
+        
+                <a  href="#" > 
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </a>
+            </div>
+          
+           
+           
+         
+        </div>
+      </nav>
+<!-- hero section -->
+      <header class=" hero vh-100 my-5"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
+        <div class="container">
+            <div class="row ">
+                
+                <div class="hero-info   col-md-6 col-12 d-flex flex-column   ">
+                    <p class="sub-title">Easy Health Care</p>
+                    <h1>We Provide Medicine And <span class=""> Best Health</span> Care For Your Family in City</h1>
+                    <p>There are many variations of passages orem psum available but the majority have suffered alteration in some form by injected humour.</p>
+                  
+                    <div class="buttons">
+
+
+                    <a href="./shop.html" class="shop-btn"> 
+                       Shop Now
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="./about.html" class="about-btn"> 
+                        Learn More
+                         <i class="fa-solid fa-arrow-right"></i>
+                     </a>
+                    </div>
+                
+                
+                
+                </div>
+                <div class="hero-img col-md-6 col-12">
+                  
+                        <img class="vh-100 img-fluid" src="./assets/img/main.png" />
+                    
+    
+                       <div class="img-info rounded-pill">
+                          <img    src="./assets/img/delivery.svg" />
+                          <span>Delivery within 30 minutes</span>
+    
+                       </div>
+                </div>
+                  
+
+            </div>
+
+
+        </div>
+
+
+      </header>
+
+<!-- search form -->
+
+<div class="search-form  "   >
+<div class="container">
+   
+    <form  action="#">
+        <h4>Search Product</h4>
+   <div class="d-flex  justify-content-arround  gap-4">
+        <select  class="Category g-col-6 p-2 ">
+         <option>All Category</option>
+ 
+             <option> Medicine</option>
+             <option> Medical Equipments</option>
+             <option> Beauty Care</option>
+             <option> Baby and Mam Care</option>
+             <option> HealthCare</option>
+             <option> Food and Nutration</option>
+             <option> Medical Supplies</option>
+             <option> Lab Test</option>
+ 
+ 
+ 
+        </select>
+ 
+        <select  class="Brand g-col-6  ">
+         <option>All Brands</option>
+ 
+             <option> Brand one</option>
+             <option> Brand two</option>
+             <option> Brand three</option>
+             <option> Brand four</option>
+             <option> Brand five</option>
+ 
+ 
+ 
+        </select>
+ 
+   
+        <input type="text" class="search-input" placeholder="Enter Key....."/>
+
+        <button class="search-btn d-flex gap-3 align-items-center justify-content-center" "> 
+            <i class="fa-solid fa-search"></i>
+           Search
+           
+        </button>
+   
+       
+ 
+ 
+    </div>
+ 
+ 
+     </form>
+</div>
+    
+
+
+</div>
+
+<!-- categories -->
+
+<div class="categories " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  >
+
+    <div class="container">
+      <div class="sub-titles">
+        <h2 >Top Category</h2>
+
+        <a   href="./shop.html" >
+          <span>view more</span>
+          <i class="fa-solid fa-angles-right"></i>
+        </a>
+      </div>
+      
+        <div class="row ">
+  
+<div class="category col-md-12 col-lg-6 col-xl-2 g-col-2" > 
+  <a href="./medicine.html">
+    <div class="icon">
+      <img class="rounded-circle" src="./assets/img/category-logo/medicine (2).svg "  />
+  </div>
+   
+   <h5>Medicine</h5>
+   <span>30 items</span>
+  </a>
+ 
+</div>
+
+<div class="category col-md-12 col-lg-6 col-xl-2  g-col-2 "> 
+  <a href="./health.html">
+    <div class="icon">
+      <img class="rounded-circle" src="./assets/img/category-logo/health.svg"  />
+  </div>
+   
+   <h5>HealthCare</h5>
+   <span>30 items</span>
+  </a>
+
+</div>
+<div class="category col-md-12 col-lg-6 col-xl-2   g-col-2"> 
+  <a href="./beauty.html">
+    <div class="icon">
+      <img class="rounded-circle" src="./assets/img/category-logo/beauty.svg"  />
+  </div>
+   
+   <h5>BeautyCare</h5>
+   <span>05 items</span>
+  </a>
+ 
+</div>
+<div class="category col-md-12 col-lg-6 col-xl-2  g-col-2 "> 
+  <a href="./Sexual.html">
+    <div class="icon">
+      <img class="rounded-circle" src="./assets/img/category-logo/sexual.svg"  />
+  </div>
+   
+   <h5>Sexual</h5>
+   <span>15 items</span>
+  </a>
+
+</div>
+
+<div class="category col-md-12 col-lg-6 col-xl-2  g-col-2"> 
+  <a href="./fittness.html">
+    
+    <div class="icon">
+      <img class="rounded-circle" src="./assets/img/category-logo/fitness.svg"  />
+  </div>
+   
+   <h5>Fittness</h5>
+   <span>30 items</span>
+  </a>
+  
+
+</div>
+
+<div class="category col-md-12 col-lg-6 col-xl-2  g-col-2"> 
+  <a href="./food.html">
+    <div class="icon">
+      <img class="rounded-circle" src="./assets/img/category-logo/lab.svg"  />
+  </div>
+   
+   <h5>Nutration</h5>
+   <span>30 items</span>
+  </a>
+
+</div>
+
+    </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+<!-- small_banner -->
+
+<div class="small_banner"   data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+  <div class="container">
+
+    <div class="row">
+
+   <div class="banner_item col-md-12 col-lg-12 col-xl-4">
+    <img   src="./assets/img/mini-banner-1.jpg" />
+
+    <div class="banner_item_content">
+
+       <p class="rounded-pill">Sanitizer</p>
+
+       <h3>Hand Sanitizer Collection</h3>
+
+       <a href="#">Shop Now</a>
+
+
+    </div>
+
+   </div>
+
+   <div class="banner_item col-md-12 col-lg-12 col-xl-4">
+    <img   src="./assets/img/mini-banner-2.jpg" />
+
+    <div class="banner_item_content">
+
+       <p class="rounded-pill">Hot Sale</p>
+
+       <h3>Face Wash Sale Collection</h3>
+
+       <a href="#">Discover Now</a>
+
+
+    </div>
+
+   </div>
+
+   <div class="banner_item col-md-12 col-lg-12 col-xl-4">
+    <img   src="./assets/img/mini-banner-3.jpg" />
+
+    <div class="banner_item_content">
+
+       <p class="rounded-pill">Facial Mask</p>
+
+       <h3>Facial Mask Sale Up To <span class="text-danger">50%</span> Off</h3>
+
+       <a href="#">Discover Now</a>
+
+
+    </div>
+
+   </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<!-- trend_items -->
+
+<div class="trend_items" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+<div class="container">
+  <div class="sub-titles">
+    <h2 >Trending Items</h2>
+
+    <a  href="./shop.html" >
+      <span>view more</span>
+      <i class="fa-solid fa-angles-right"></i>
+    </a>
+  </div>
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide item">
+       
+        <a  class="image">
+          <img src="./assets/img/trending/product6.png  " class="image-preview"/> 
+
+          <div class="product-info">
+
+            <p class="rounded-pill"> OUT OF STOCK</p>
+            <div class="icons">
+              <i class="fa-regular fa-eye eye" onclick="openModal()"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+          </div>
+        </a>
+          <div class="product-content">
+           <a href="#">
+            <h4>Surgical Face Mask</h4>
+           </a>
+         
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="price">
+              <span>$250.00</span>
+              <a  href="#" > 
+                <p class="rounded-pill">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+            
+          </div>
+       
+      </div>
+
+      <div class="swiper-slide item">
+       
+        <a  class="image">
+          <img src="./assets/img/trending/product5.png " class="image-preview"/> 
+
+          <div class="product-info">
+
+            <p class="rounded-pill bg-warning">10% OFF </p>
+            <div class="icons">
+              <i class="fa-regular fa-eye eye" onclick="openModal()"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+          </div>
+        </a>
+          <div class="product-content">
+           <a href="#">
+            <h4>Surgical Face Mask</h4>
+           </a>
+         
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="price">
+              <div>
+              <span class="discount">$250.00 </span>
+              <span>$190.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+            
+          </div>
+       
+      </div>
+
+      <div class="swiper-slide item">
+       
+        <a class="image">
+          <img src="./assets/img/trending/product1.png" class="image-preview"/> 
+
+          <div class="product-info">
+            <p class="bg-transparent"> </p>
+           
+            <div class="icons">
+              <i class="fa-regular fa-eye eye" onclick="openModal()"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+          </div>
+        </a>
+          <div class="product-content">
+           <a href="#">
+            <h4>Surgical Face Mask</h4>
+           </a>
+         
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="price">
+              <span>$250.00</span>
+              <a  href="#" > 
+                <p class="rounded-pill">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+            
+          </div>
+       
+      </div>
+
+      <div class="swiper-slide item">
+       
+        <a  class="image">
+          <img src="./assets/img/trending/product2.png" class="image-preview"/> 
+
+          <div class="product-info">
+            <p class="bg-transparent"> </p>
+            
+            <div class="icons">
+              <i class="fa-regular fa-eye eye" onclick="openModal()"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+          </div>
+        </a>
+          <div class="product-content">
+           <a href="#">
+            <h4>Surgical Face Mask</h4>
+           </a>
+         
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="price">
+              <span>$250.00</span>
+              <a  href="#" > 
+                <p class="rounded-pill">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+            
+          </div>
+       
+      </div>
+
+      <div class="swiper-slide item">
+       
+        <a class="image">
+          <img src="./assets/img/trending/product3.png" class="image-preview"/> 
+
+          <div class="product-info">
+
+            <p class="rounded-pill new"> new</p>
+            <div class="icons">
+              <i class="fa-regular fa-eye eye" onclick="openModal()"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+          </div>
+        </a>
+          <div class="product-content">
+           <a href="#">
+            <h4>Surgical Face Mask</h4>
+           </a>
+         
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="price">
+              <span>$250.00</span>
+              <a  href="#" > 
+                <p class="rounded-pill">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+            
+          </div>
+       
+      </div>
+
+      <div class="swiper-slide item">
+       
+        <a class="image">
+          <img src="./assets/img//trending/product4.png" class="image-preview"/> 
+
+          <div class="product-info">
+
+            <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+            <div class="icons">
+              <i class="fa-regular fa-eye eye" onclick="openModal()"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+          </div>
+        </a>
+          <div class="product-content">
+           <a href="#">
+            <h4>Surgical Face Mask</h4>
+           </a>
+         
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <div class="price">
+              <span>$250.00</span>
+              <a  href="#" > 
+                <p class="rounded-pill">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+            
+          </div>
+       
+      </div>
+
+    </div>
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev">  </div>
+    <div class="swiper-button-next"> </div>
+  
+  
+  </div>
+
+</div>
+
+
+</div>
+
+<!-- features -->
+
+
+<div class="features" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+  <div class="container">
+
+    <div class="row row-gap-3">
+      <div class="col-md-12 col-lg-6 col-xl-3 feature ">
+<div class="feature-icon">
+  <i class="fa-solid fa-truck"></i>
+</div>
+       
+      <div class="feature-info">
+        <h4>Free Delivery  </h4>
+        <p>Orders Over $120 </p>
+      </div>  
+      
+      
+      
+      </div>
+
+      <div class="col-md-12 col-lg-6  col-xl-3 feature">
+        <div class="feature-icon">
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+               
+              <div class="feature-info">
+                <h4>Get Refund</h4>
+                <p>Within 30 Days Returns </p>
+              </div>  
+              
+              
+              
+              </div>
+
+
+              <div class="col-md-12 col-lg-6  col-xl-3 feature">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-wallet"></i>
+                </div>
+                       
+                      <div class="feature-info">
+                        <h4>Safe Payment</h4>
+                        <p>100% Secure Payment </p>
+                      </div>  
+                      
+                      
+                      
+                      </div>
+
+                      <div class="col-md-12 col-lg-6  col-xl-3 feature last">
+                        <div class="feature-icon">
+                          <i class="fa-solid fa-headset"></i>
+                        </div>
+                               
+                              <div class="feature-info">
+                                <h4>24/7 Support</h4>
+                                <p>Feel Free To Call Us</p>
+                              </div>  
+                              
+                              
+                              
+                              </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+</div>
+
+<!-- popular items -->
+
+<div class="popular-items" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-xl-9  ">
+        <div class="sub-titles">
+          <h2 >Popular Items</h2>
+      
+          <a  href="./shop.html" >
+            <span>All Products</span>
+            <i class="fa-solid fa-angles-right"></i>
+          </a>
+        </div>
+
+         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation" >
+      <button class="nav-link rounded-pill active" id="pills-medicine-tab" data-bs-toggle="pill" data-bs-target="#pills-medicine" type="button" role="tab" aria-controls="pills-medicine" aria-selected="true">Medicine</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-pill" id="pills-beauty-tab" data-bs-toggle="pill" data-bs-target="#pills-beauty" type="button" role="tab" aria-controls="pills-beauty" aria-selected="false">Beauty Care</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-pill" id="pills-health-tab" data-bs-toggle="pill" data-bs-target="#pills-health" type="button" role="tab" aria-controls="pills-health" aria-selected="false">healthcare</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-pill" id="pills-baby-tab" data-bs-toggle="pill" data-bs-target="#pills-baby" type="button" role="tab" aria-controls="pills-baby" aria-selected="false">baby & mom care</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-pill" id="pills-food-tab" data-bs-toggle="pill" data-bs-target="#pills-food" type="button" role="tab" aria-controls="pills-food" aria-selected="false">food & nutration</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-pill" id="pills-equipments-tab" data-bs-toggle="pill" data-bs-target="#pills-equipments" type="button" role="tab" aria-controls="pills-equipments" aria-selected="false">medical equipments</button>
+    </li>
+   
+  </ul>
+  <div class="tab-content row" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-medicine" role="tabpanel" aria-labelledby="pills-medicine-tab" tabindex="0">
+      <div class="row">
+
+
+        <div class="col-sm-6 col-lg-3 item">
+    
+    
+          <a href="#" class="image">
+            <img src="./assets/img/medicine/caratine.png"/> 
+    
+            <div class="product-info">
+    
+              <p class="rounded-pill new"> new</p>
+              <div class="icons">
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-repeat"></i>
+              </div>
+            </div>
+          </a>
+            <div class="product-content">
+             <a href="#">
+              <h4>Surgical Face Mask</h4>
+             </a>
+           
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">
+                <span>$250.00</span>
+                <a  href="#" > 
+                  <p class="rounded-pill">add to cart</p>
+                  <i class="fa-solid fa-bag-shopping "></i>
+                  
+              </a>
+    
+              </div>
+              
+            </div>
+    
+        </div>
+    
+        <div class="col-sm-6 col-lg-3 item">
+    
+    
+    
+          <a href="#" class="image">
+            <img src="./assets/img/medicine/bed.png"/> 
+    
+            <div class="product-info">
+              <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+            
+              <div class="icons">
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-repeat"></i>
+              </div>
+            </div>
+          </a>
+            <div class="product-content">
+             <a href="#">
+              <h4>Surgical Face Mask</h4>
+             </a>
+           
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">
+                <span>$250.00</span>
+                <a  href="#" > 
+                  <p class="rounded-pill">add to cart</p>
+                  <i class="fa-solid fa-bag-shopping "></i>
+                  
+              </a>
+    
+              </div>
+              
+            </div>
+    
+        </div>
+    
+    
+        <div class="col-sm-6 col-lg-3 item">
+    
+    
+    
+          <a href="#" class="image">
+            <img src="./assets/img/medicine/zinc.png"/> 
+    
+            <div class="product-info">
+              <p class="rounded-pill"> OUT OF STOCK</p>
+            
+              <div class="icons">
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-repeat"></i>
+              </div>
+            </div>
+          </a>
+            <div class="product-content">
+             <a href="#">
+              <h4>Surgical Face Mask</h4>
+             </a>
+           
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">
+                <span>$250.00</span>
+                <a  href="#" > 
+                  <p class="rounded-pill">add to cart</p>
+                  <i class="fa-solid fa-bag-shopping "></i>
+                  
+              </a>
+    
+              </div>
+              
+            </div>
+    
+        </div>
+    
+    
+        <div class="col-sm-6 col-lg-3 item">
+    
+    
+    
+          <a href="#" class="image">
+            <img src="./assets/img/medicine/protine.png"/> 
+    
+            <div class="product-info">
+    
+              <p class="rounded-pill bg-warning"> 10% off</p>
+    
+              <div class="icons">
+                <i class="fa-regular fa-eye"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-repeat"></i>
+              </div>
+            </div>
+          </a>
+            <div class="product-content">
+             <a href="#">
+              <h4>Surgical Face Mask</h4>
+             </a>
+           
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">
+                <span>$250.00</span>
+                <a  href="#" > 
+                  <p class="rounded-pill">add to cart</p>
+                  <i class="fa-solid fa-bag-shopping "></i>
+                  
+              </a>
+    
+              </div>
+              
+            </div>
+    
+        </div>
+    
+    
+       </div>
+    </div>
+    <div class="tab-pane fade" id="pills-beauty" role="tabpanel" aria-labelledby="pills-beauty-tab" tabindex="0">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/beauty/1.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill new"> new</p>
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/beauty/2.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/beauty/3.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill"> OUT OF STOCK</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/beauty/4.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill bg-warning"> 10% off</p>
+ 
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+    </div>
+    </div>
+    <div class="tab-pane fade" id="pills-health" role="tabpanel" aria-labelledby="pills-health-tab" tabindex="0">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/health/cleanser.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill new"> new</p>
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/health/tan.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/health/cloves.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill"> OUT OF STOCK</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/health/sun_block.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill bg-warning"> 10% off</p>
+ 
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+    </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-baby" role="tabpanel" aria-labelledby="pills-baby-tab" tabindex="0">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/baby/pressure.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill new"> new</p>
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/baby/veitamin.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/medicine/zinc.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill"> OUT OF STOCK</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/baby/tempreture.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill bg-warning"> 10% off</p>
+ 
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+    </div>
+    </div>
+    <div class="tab-pane fade" id="pills-food" role="tabpanel" aria-labelledby="pills-food-tab" tabindex="0">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/food/pressure.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill new"> new</p>
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/food/hair.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/food/otrivin.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill"> OUT OF STOCK</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/food/flu.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill bg-warning"> 10% off</p>
+ 
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+    </div>
+    </div>
+    <div class="tab-pane fade" id="pills-equipments" role="tabpanel" aria-labelledby="pills-equipments-tab" tabindex="0">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/med-equipments/1.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill new"> new</p>
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/med-equipments/2.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill bg-info bg-gradient  "> hot</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/med-equipments/3.png"/> 
+ 
+         <div class="product-info">
+           <p class="rounded-pill"> OUT OF STOCK</p>
+         
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+     <div class="col-sm-6 col-lg-3 item">
+ 
+ 
+ 
+       <a href="#" class="image">
+         <img src="./assets/img/med-equipments/4.png"/> 
+ 
+         <div class="product-info">
+ 
+           <p class="rounded-pill bg-warning"> 10% off</p>
+ 
+           <div class="icons">
+             <i class="fa-regular fa-eye"></i>
+             <i class="fa-regular fa-heart"></i>
+             <i class="fa-solid fa-repeat"></i>
+           </div>
+         </div>
+       </a>
+         <div class="product-content">
+          <a href="#">
+           <h4>Surgical Face Mask</h4>
+          </a>
+        
+           <div class="star">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+           </div>
+           <div class="price">
+             <span>$250.00</span>
+             <a  href="#" > 
+               <p class="rounded-pill">add to cart</p>
+               <i class="fa-solid fa-bag-shopping "></i>
+               
+           </a>
+ 
+           </div>
+           
+         </div>
+ 
+     </div>
+ 
+ 
+    </div>
+    </div>
+   
+  </div> 
+
+</div>
+
+<div class=" product-banner  col-xl-3">
+ 
+  <a href="#">
+    <img src="./assets/img/product-banner.jpg" /> 
+
+  </a>
+
+
+  </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- big-banner -->
+
+<div class="big-banner" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+    <div class="container">
+
+
+       <div class="big-banner-info">
+
+            <h4>Mega Collections</h4>
+            <h2>Huge Sale Up To 40% Off</h2>
+
+            <p>at our outlet stores</p>
+
+            <a href="./shop.html" class="shop-btn rounded-pill"> 
+              Shop Now
+               <i class="fa-solid fa-arrow-right"></i>
+           </a>
+       </div>
+
+
+
+    </div>
+
+</div>
+
+<!-- brands -->
+
+<div class="brands" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+<div class="container">
+  <div class="sub-titles">
+    <h2 >Popular Brands</h2>
+
+    <a  href="#" >
+      <span>view more</span>
+      <i class="fa-solid fa-angles-right"></i>
+    </a>
+  </div>
+<div class="row  gap-3">
+
+     <div class="brand col border rounded-4">
+
+      <a href="#">
+        <img src="./assets/img/brands/brand1.png"/>
+      </a>
+     </div>
+
+     <div class="brand col border rounded-4">
+
+      <a href="#">
+        <img src="./assets/img/brands/brand2.png"/>
+      </a>
+     </div>
+
+     <div class="brand col border rounded-4">
+
+      <a href="#">
+        <img src="./assets/img/brands/brand3.png"/>
+      </a>
+     </div>
+
+     <div class="brand col border rounded-4">
+
+      <a href="#">
+        <img src="./assets/img/brands/brand4.png"/>
+      </a>
+     </div>
+
+     <div class="brand col border rounded-4">
+
+      <a href="#">
+        <img src="./assets/img/brands/brand5.png"/>
+      </a>
+     </div>
+
+     <div class="brand col border rounded-4">
+
+      <a href="#">
+        <img src="./assets/img/brands/brand6.png"/>
+      </a>
+     </div>
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="video-product-list">
+<!-- video -->  
+<div class="video" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+<a  class="video-play "  href="https://www.youtube.com/watch?v=ckHzmP1evNU">
+
+  <i class="fa-solid fa-play rounded-circle"></i>
+
+</a>
+
+
+
+
+</div>
+
+
+<!-- product-list -->
+
+<div class="products-list" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+   <div class="container">
+
+    <div class="product-row ">
+
+
+      <div class=" product-list ">
+        <h3>On sale</h3>
+
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product3.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product4.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product6.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="product-list ">
+
+      
+        <h3>Best Seller</h3>
+
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product5.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product2.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product1.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+                
+              </div>
+
+              <div class="product-list  ">
+
+
+                 <h3>Top Rated</h3>
+
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/medicine/bed.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product7.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+
+        <div class="product-list-item">
+
+          <a href="#" class="image-porduct">  
+             <img src= "assets/img/trending/product8.png" />   
+            
+            
+          </a>
+
+          <div class="product-list-content">
+
+            <h5>Surgical Face Mask</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+
+            <div class="price">
+              <div>
+              <span class="discount">$60.00 </span>
+              <span>$40.00</span>  
+              </div>
+              
+              <a  href="#" class="cart" > 
+                <p class="rounded-pill ">add to cart</p>
+                <i class="fa-solid fa-bag-shopping "></i>
+                
+            </a>
+
+            </div>
+          </div>         
+
+
+
+
+
+        </div>
+                        
+                      </div>
+ 
+
+
+    </div>
+
+
+   </div>
+
+</div>  
+</div>
+
+<!-- deal -->
+
+<div class="deal" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+<div class="container">
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+
+        <div class="row">
+
+
+       <div class="col-md-12 col-lg-6 deal-info">
+        <div class="deal-content">
+
+         <h4> WEEKLY DEAL</h4>
+         <h1>Best Deal For This Week</h1>
+
+         <p>There are many variations of passages available but the majority have
+          suffered alteration in some form
+          by injected humour, or randomised words which don't look even slightly
+          believable.</p>
+
+          <div class="countdown">
+
+            <div class="time">
+              <span id="days" ></span>
+              Days
+            </div>
+            <div class="time">
+              <span id="hours" ></span>
+              Hours
+            </div>
+            <div class="time">
+              <span id="minutes" ></span>
+              Minutes
+            </div>
+            <div class="time">
+              <span id="seconds" ></span>
+              Seconds
+            </div>
+          </div>
+
+          <a href="./shop.html" class="shop-btn "> 
+            Shop Now
+             <i class="fa-solid fa-arrow-right"></i>
+         </a>
+
+
+        </div>
+
+       </div>
+
+       <div class="col-lg-6 deal-img">
+          <img src="./assets/img/deal/deal1.png" />
+
+          <div class="deal-discount">
+
+              <h3> 35% </h3>
+              <h4>OFF</h4>
+
+          </div>
+
+       </div>
+
+
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+
+        <div class="row">
+
+
+       <div class="col-lg-6 deal-info">
+        <div class="deal-content">
+
+         <h4> WEEKLY DEAL</h4>
+         <h1>Best Deal For This Week</h1>
+
+         <p>There are many variations of passages available but the majority have
+          suffered alteration in some form
+          by injected humour, or randomised words which don't look even slightly
+          believable.</p>
+
+          <div class="countdown">
+
+            <div class="time">
+              <span id="days2" ></span>
+              Days
+            </div>
+            <div class="time">
+              <span id="hours2" ></span>
+              Hours
+            </div>
+            <div class="time">
+              <span id="minutes2" ></span>
+              Minutes
+            </div>
+            <div class="time">
+              <span id="seconds2" ></span>
+              Seconds
+            </div>
+          </div>
+
+          <a href="./shop.html" class="shop-btn "> 
+            Shop Now
+             <i class="fa-solid fa-arrow-right"></i>
+         </a>
+
+
+        </div>
+
+       </div>
+
+       <div class="col-lg-6 deal-img">
+          <img src="./assets/img/deal/deal2.png" />
+
+          <div class="deal-discount">
+
+              <h3> 35% </h3>
+              <h4>OFF</h4>
+
+          </div>
+
+       </div>
+
+
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+
+        <div class="row">
+
+
+       <div class="col-lg-6 deal-info">
+        <div class="deal-content">
+
+         <h4> WEEKLY DEAL</h4>
+         <h1>Best Deal For This Week</h1>
+
+         <p>There are many variations of passages available but the majority have
+          suffered alteration in some form
+          by injected humour, or randomised words which don't look even slightly
+          believable.</p>
+
+          <div class="countdown">
+
+            <div class="time">
+              <span id="days3" ></span>
+              Days
+            </div>
+            <div class="time">
+              <span id="hours3" ></span>
+              Hours
+            </div>
+            <div class="time">
+              <span id="minutes3" ></span>
+              Minutes
+            </div>
+            <div class="time">
+              <span id="seconds3" ></span>
+              Seconds
+            </div>
+          </div>
+
+          <a href="./shop.html" class="shop-btn "> 
+            Shop Now
+             <i class="fa-solid fa-arrow-right"></i>
+         </a>
+
+
+        </div>
+
+       </div>
+
+       <div class="col-lg-6 deal-img">
+          <img src="./assets/img/deal/deal3.png" />
+
+          <div class="deal-discount">
+
+              <h3> 35% </h3>
+              <h4>OFF</h4>
+
+          </div>
+
+       </div>
+
+
+        </div>
+
+      </div>
+   
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+</div>
+
+
+
+</div>
+
+
+<!-- about -->
+
+<div class="about" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+<div class="container">
+
+  <div class="row ">
+
+
+    <div class=" col-xl-6 about-img ">
+     
+      <div class="row">
+       
+        <div class="col-7 image1">
+          <img  src="./assets/img/about/about1.jpg" />
+        </div>
+       
+        
+        <div class="col-5 image2">
+          <img src="./assets/img/about/about2.jpg" />
+        </div>
+       
+        
+
+      </div>
+
+
+      <img class="shape" src="./assets/img/about/shape.png"/>
+
+      <div class="img-info rounded-pill">
+        <img    src="./assets/img/about/experience.svg" />
+        <span>30 Years Of Experience</span>
+
+     </div>
+
+    </div>
+
+
+    <div class=" col-xl-6 col-md-12 about-info">
+    
+        <h4> About Us</h4>
+        <h2> We Provide Best and Original <span style="color:#03A297;">Medical </span>   Product For You</h2>
+        <p>We are standard text ever since the when an unknown printer took a galley of type and scrambled it to make type but the majority have suffered alteration in some form by injected humour specimen book. It has survived not only five but also the leap into electronic remaining essentially by injected humour unchanged.</p>
+
+
+   <div class="about-list">
+      
+    <ul >
+
+    <li>
+      <i class="fa-solid fa-check-double"></i>
+      Streamlined Shipping Experience
+
+    </li>
+
+    <li>
+      <i class="fa-solid fa-check-double"></i>
+      Streamlined Shipping Experience
+
+    </li>
+
+    <li>
+      <i class="fa-solid fa-check-double"></i>
+      Streamlined Shipping Experience
+
+    </li>
+
+    <li>
+      <i class="fa-solid fa-check-double"></i>
+      Streamlined Shipping Experience
+
+    </li>
+
+
+
+
+    </ul>
+
+   </div>
+
+   <a href="./about.html" class="shop-btn"> 
+    Discover More
+     <i class="fa-solid fa-arrow-right"></i>
+ </a>
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+</div>
+
+
+<!-- choose -->
+
+<div class="choose" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+ <div class="container">
+    
+   <div class="row  first ">
+ <div class="col   choose-img ">
+
+   <img class="rounded-pill"   src="./assets/img/choose.jpg"/>
+ </div>
+
+ <div class="col title">
+  
+
+  <h5>Why Choose Us  </h5>
+ <h2>We Provide Premium Quality Furniture For You</h2>
+
+
+
+
+ </div>
+
+ <div class="col description">
+<p>There are many variations of passages available but the majority have suffered you are going to use a passage you need to 
+  be sure alteration in some form by injected humour randomised words even slightly believable</p>
+ </div>
+
+</div>
+<div class="row second">
+
+  <div class="col-sm-12 col-lg-4 choose-item">
+
+    <img src="./assets/img/warranty.svg" />
+
+    <div class="choose-item-info" >
+
+
+      <h4> Original Products</h4>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+    </div>
+  
+
+ </div>
+
+ <div class="col-sm-12 col-lg-4 choose-item">
+
+  <img src="./assets/img/price.svg" />
+
+  <div class="choose-item-info" >
+
+
+    <h4> Affordable Price
+    </h4>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+  </div>
+
+
+</div>
+
+<div class="col-sm-12 col-lg-4 choose-item">
+
+  <img src="./assets/img/delivery.svg">
+
+  <div class="choose-item-info" >
+
+
+    <h4> Free Shipping</h4>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+  </div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+  
+ </div>
+
+
+</div>
+
+<!-- testimonials -->
+<div class="testimonials" id="testi" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  >
+
+  <div class="container">
+  <h5 class="title">Testimonials</h5>
+    <h2>What Our Client Say's  <span style="color: #03A297;">About Us</span> </h2>
+    <div class="swiper mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ">
+
+         <div class="testimonial-item">
+           
+
+          <div class=" author rounded-pill">
+            <img    src="./assets/img/testimonial/01.jpg" />
+            <div class="author-info">
+              <h5>Sylvia H Green</h5>
+              <span>customer </span>
+            </div>
+           
+    
+         </div>
+
+         <p>
+          There are many variations of long passages available but the content majority have
+          suffered to the editor page when looking at its layout alteration in some injected.
+      </p>
+
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+         </div>
+
+
+
+
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+           
+
+            <div class=" author rounded-pill">
+              <img    src="./assets/img/testimonial/02.jpg" />
+              <div class="author-info">
+                <h5>Sylvia H Green</h5>
+                <span>customer </span>
+              </div>
+             
+      
+           </div>
+  
+           <p>
+            There are many variations of long passages available but the content majority have
+            suffered to the editor page when looking at its layout alteration in some injected.
+        </p>
+  
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+           
+
+            <div class=" author rounded-pill">
+              <img    src="./assets/img/testimonial/01.jpg" />
+              <div class="author-info">
+                <h5>Sylvia H Green</h5>
+                <span>customer </span>
+              </div>
+             
+      
+           </div>
+  
+           <p>
+            There are many variations of long passages available but the content majority have
+            suffered to the editor page when looking at its layout alteration in some injected.
+        </p>
+  
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+           
+
+            <div class=" author rounded-pill">
+              <img    src="./assets/img/testimonial/04.jpg" />
+              <div class="author-info">
+                <h5>Sylvia H Green</h5>
+                <span>customer </span>
+              </div>
+             
+      
+           </div>
+  
+           <p>
+            There are many variations of long passages available but the content majority have
+            suffered to the editor page when looking at its layout alteration in some injected.
+        </p>
+  
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+           
+
+            <div class=" author rounded-pill">
+              <img    src="./assets/img/testimonial/05.jpg" />
+              <div class="author-info">
+                <h5>Sylvia H Green</h5>
+                <span>customer </span>
+              </div>
+             
+      
+           </div>
+  
+           <p>
+            There are many variations of long passages available but the content majority have
+            suffered to the editor page when looking at its layout alteration in some injected.
+        </p>
+  
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+           </div>
+        </div>
+      
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  
+  </div>
+
+
+
+</div>
+
+<!-- news -->
+
+<div class="news" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+  <div class="container">
+    <div class="title">
+       <span > OUR BLOG</span>
+    <h3>Our Latest News & <span> Blog</span></h3>
+    </div>
+   
+    <div class="row ">
+
+    <div class="blog1 col-sm-12 col-xl-4 blog">
+    
+      <img src="./assets/img/news/new1.jpg"/>
+      <div class="writer row">
+
+          <a href="#"  class="col">
+            <i class="fa-regular fa-user"></i>
+            By Alicia Davis
+          </a>
+          <a href="#" class="col">
+            <i class="fa-regular fa-comments"></i>
+           2.5K comments
+                     </a>
+      
+
+      
+      </div>
+      <div class="date rounded-start-pill">
+        <i class="fa-solid fa-calendar-days"></i>
+        Aug 12, 2024
+      </div>
+
+     <a href="#"><h4>There are many variations of passage available majority suffered.</h4> </a>
+     <p>There are many variations available the majority have suffered alteration randomised words.</p>
+     
+     <a href="./blog.html" class="shop-btn"> 
+     Read More
+       <i class="fa-solid fa-arrow-right"></i>
+   </a>
+    </div>
+
+
+    <div class=" blog1  col-sm-12 col-xl-4 blog">
+      <img src="./assets/img/news/new2.jpg"/>
+      <div class="writer row">
+
+          <a href="#"  class="col">
+            <i class="fa-regular fa-user"></i>
+            By Alicia Davis
+          </a>
+          <a href="#" class="col">
+            <i class="fa-regular fa-comments"></i>
+           2.5K comments
+                     </a>
+      
+
+      </div>
+      <div class="date rounded-start-pill">
+        <i class="fa-solid fa-calendar-days"></i>
+        Aug 12, 2024
+      </div>
+     <a href="#"><h4>There are many variations of passage available majority suffered.</h4> </a>
+     <p>There are many variations available the majority have suffered alteration randomised words.</p>
+     
+     <a href="./blog.html" class="shop-btn"> 
+     Read More
+       <i class="fa-solid fa-arrow-right"></i>
+   </a>
+    </div>
+
+    <div class="blog1  col-sm-12 col-xl-4 blog">
+      <img src="./assets/img/news/new3.jpg"/>
+      <div class="writer row">
+
+          <a href="#"  class="col">
+            <i class="fa-regular fa-user"></i>
+            By Alicia Davis
+          </a>
+          <a href="#" class="col">
+            <i class="fa-regular fa-comments"></i>
+           2.5K comments
+                     </a>
+      
+
+      </div>
+      <div class="date rounded-start-pill">
+        <i class="fa-solid fa-calendar-days"></i>
+        Aug 12, 2024
+      </div>
+     <a href="#"><h4>There are many variations of passage available majority suffered.</h4> </a>
+     <p>There are many variations available the majority have suffered alteration randomised words.</p>
+     
+     <a href="./blog.html" class="shop-btn"> 
+     Read More
+       <i class="fa-solid fa-arrow-right"></i>
+   </a>
+    </div>
+    
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+</div>
+
+<!-- newsletter -->
+
+<div class="newsletter" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+  <div class="container ">
+<div class="newsletter-content rounded-4">
+
+  <h3>Get <span class="text-warning">20%</span> Off Discount Coupon  </h3>
+   <span>By Subscribe Our Newsletter</span>
+  
+   <input  class=" rounded-pill email" type="email" placeholder="Your Email Address">
+
+   <a href="#" class="shop-btn  rounded-pill"> 
+   Subscribe
+   <i class="fa-regular fa-paper-plane"></i>
+  </a>
+</div>
+ 
+</div>
+</div>
+
+
+<!-- instagram -->
+
+<div class="instagram" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+
+  <div class="container ">
+  <h2>Instagram<span style="color: #03A297;">@Median</span></h2>
+
+  <div class="swiper mySwiper3">
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide ">
+        <img src="./assets/img/instagram/1.jpg"/>
+        <div class="hide-insta">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/instagram/2.jpg"/>
+        <div class="hide-insta">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/instagram/3.jpg"/>
+        <div class="hide-insta">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+          </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./assets/img/instagram/4.jpg"/>
+        <div class="hide-insta">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+          </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./assets/img/instagram/5.jpg"/>
+        <div class="hide-insta">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/instagram/6.jpg"/>
+        <div class="hide-insta">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+          </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./assets/img/instagram/7.jpg"/>
+        <div class="hide-insta">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+          </div>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+
+</div>
+
+
+<!-- footer -->
+
+
+ <footer>
+
+<div class="container">
+
+<div class="footer-content">
+
+<div class=" footer-start">
+
+  <a class= " navbar-brand logo" href="#"> <img    src="./assets/img/logo-light.png" /></a>
+
+  <p>We are many variations of the passages available but the majoro have suffered alteration injected.</p>
+
+  <ul>
+  <li>
+    <a href="tel:+2123645449999">
+      <i class="fa-solid fa-phone"></i>
+      +2123645449999
+    </a>
+  </li>
+
+  <li>
+   
+    <i class="fa-solid fa-location-dot"></i>
+      25/B Milford Road, New York
+   
+  </li>
+  <li>
+    <a href="mailto:info@example.com">
+      <i class="fa-regular fa-envelope"></i>
+      info@example.com
+    </a>
+  </li>
+
+
+  <li>
+   
+    <i class="fa-regular fa-clock"></i>
+    Mon-Fri (9.00AM - 8.00PM)
+   
+  </li>
+  </ul>
+
+
+
+</div>
+
+
+
+<div class="footer-end row">
+
+
+ <div class="links  footer-end-item  col-md-6  col-lg-3">
+
+  <h4>Quicl Links</h4>
+  <ul>
+   
+    <li>
+      <a  href="./about.html">
+About us
+      </a>
+    </li>
+
+    <li>
+      <a  href="#">
+delivery
+      </a>
+    </li>
+
+    <li>
+      <a  href="./contact.html">
+contact us
+      </a>
+    </li>
+
+    <li>
+      <a href="#testi">
+our testimonials
+      </a>
+    </li>
+
+  </ul>
+
+ </div>
+
+
+ <div class="browse footer-end-item  col-md-6 col-lg-3">
+
+  <h4>Categories</h4>
+  <ul>
+   
+    <li>
+      <a  href="./medicine.html">
+Medicine
+      </a>
+    </li>
+
+    <li>
+      <a  href="./fittness.html">
+Fittness
+      </a>
+    </li>
+
+    <li>
+      <a  href="./beauty.html">
+Beauty Care
+      </a>
+    </li>
+
+    <li>
+      <a href="./baby.html">
+Baby & Mom
+      </a>
+    </li>
+
+  </ul>
+
+ </div>
+
+
+ <div class="support footer-end-item  col-md-6 col-lg-3">
+
+  <h4>Support Center</h4>
+  <ul>
+   
+    <li>
+      <a  href="">
+About us
+      </a>
+    </li>
+
+    <li>
+      <a  href="">
+delivery
+      </a>
+    </li>
+
+    <li>
+      <a  href="">
+contact us
+      </a>
+    </li>
+
+    <li>
+      <a href="">
+our testimonials
+      </a>
+    </li>
+
+  </ul>
+
+ </div>
+
+
+ <div class="apps footer-end-item  col-md-6 col-lg-3">
+
+  <h4>Get Mobile App</h4>
+  <ul>
+   
+    <li>
+      <a  href="">
+About us
+      </a>
+    </li>
+
+    <li>
+      <a  href="">
+delivery
+      </a>
+    </li>
+
+    <li>
+      <a  href="">
+contact us
+      </a>
+    </li>
+
+    <li>
+      <a href="">
+our testimonials
+      </a>
+    </li>
+
+  </ul>
+
+ </div>
+  
+</div>
+  
+
+
+</div>
+
+
+</div>
+
+ </footer>
+
+
+
+
+ 
+<div class="my_modal  d-none ">
+
+  <div class="searchModal">
+    <i class="fa-solid fa-xmark close-btn"></i>
+ 
+    
+   <input type="text" placeholder=" Search Here..." />
+   <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+  
+  </div>
+
+
+<!-- 
+  <div class="share-icon d-none">
+    <a href="#">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+  
+
+
+  </div> -->
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <script src="./assets/js/main.js" ></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+
+  /* deal-area */
+
+
+  .deal-area{
+
+    margin-top: 600px;
+    overflow: hidden;
+    background-color: rgba(3, 162, 151, .08);
+    ;
+  }
+
+  .swiper2 {
+   
+ 
+      width: 100%;
+      height: 300px;
+    
+  }
+
+  .swiper2 .swiper-slide{
+
+    width: 100%;
+  }
